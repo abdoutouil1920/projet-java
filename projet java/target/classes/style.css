@@ -1,0 +1,365 @@
+.side_left{
+    -fx-background-color: #01BED2;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #01BED2;
+    -fx-border-style: solid;
+}
+.pane_top{
+    -fx-background-color:#E81396      ;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#E81396;
+}
+.sec_pane{
+    -fx-background-color: #eeeaea;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#8E0D3C;
+}
+.Home_btn{
+    -fx-background-color: #E81396;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#E81396;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 17px;
+    -fx-text-fill: white;
+}
+
+.Home_btn:hover{
+    -fx-text-fill: black;
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.02;
+
+}
+
+
+.logout_btn{
+    -fx-background-color: rgb(128, 128, 128);
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:white;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+.logout_btn:hover{
+    -fx-text-fill: white;
+    -fx-scale-y: 1.1;
+}
+
+.hBox_main{
+    -fx-background-color: #ffffff;
+}
+.search_Bar{
+    -fx-background-color: rgb(128, 128, 128);
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:white;
+    -fx-font-family: "Century Gothic";
+}
+.pane_Body1{
+    -fx-background-color: #F04E56;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#F04E56;
+}
+.Pane_11{
+    -fx-background-color: #FD9999;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#FD9999;
+}
+.Pane_112{
+    -fx-background-color: #ea7070;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#FD9999;
+}
+.pane_navBar{
+    -fx-background-color: #01BED2;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #01BED2;
+    -fx-border-style: solid;
+    -fx-font-color: white;
+}
+.bodyy{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.pane_back_body{
+    -fx-background-color: #485B80;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: #485B80;
+    -fx-border-style: solid;
+}
+.btn_conf{
+    -fx-background-color: #001233;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: #001233;
+    -fx-border-style: solid;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+}
+.btn_decline{
+    -fx-background-color: #8E0D3C;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: #8E0D3C;
+    -fx-border-style: solid;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+}
+.choice-box {
+    -fx-background-color: #004cf2;
+    -fx-mark-color: #8E0D3C;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+}
+.btnQuit{
+    -fx-background-color: #8E0D3C;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: #8E0D3C;
+    -fx-border-style: solid;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+}
+.idField{
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+.idField:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+.btn_all{
+    -fx-font-family: "Century Gothic";
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-color: #8E0D3C;
+    -fx-text-fill: white;
+}
+.Other_btn{
+    -fx-background-color: #004cf2;
+   // -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 5px;
+    //-fx-border-style: solid;
+    //-fx-border-color:white;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 17px;
+    -fx-text-fill: white;
+}
+.Other_btn:hover{
+    -fx-text-fill: black;
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.02;
+
+}
+.pane_backk_body{
+    -fx-background-color: #eeeeee;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #eeeeee;
+    -fx-border-style: solid;
+}
+Otheer_btn{
+    -fx-background-color: #ea7070;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#ea7070;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+.pane_Body00{
+    -fx-background-color: #F04E56;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#eeeeee;
+}
+.pane_opa{
+    -fx-background-color: #eeeeee;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:#eeeeee;
+    -fx-opacity: 0.6;
+
+}
+/*
+.table-view {
+    -fx-background-color: #2c3e50;
+    -fx-font-family: 'CenturyGothic', sans-serif;
+}
+
+/* Header backgr
+.table-view .column-header-background {
+    -fx-background-color: #474d67;
+    -fx-font-family: 'CenturyGothic', sans-serif;
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: white;
+}
+
+/* Column headers
+.table-view .column-header, .table-view .column-header-background {
+    -fx-padding: 10px;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+
+.table{
+    -fx-background-color: #2c3e50;
+    -fx-font-family: 'CenturyGothic', sans-serif;
+
+}
+/* Rows
+.table-row-cell {
+    -fx-background-color: #ea7070;
+}
+
+/* Odd rows
+.table-row-cell:odd {
+    -fx-background-color: #FD9999;
+}
+
+/* Even rows
+.table-row-cell:even {
+    -fx-background-color: #FD9999;
+}
+
+/* Selected rows
+.table-row-cell:selected {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #34495e;
+}
+*/
+.anchor {
+    //-fx-background-image:url('Creative_Color_Brushstroke_Lettering_Logo__4_-removebg-preview.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-opacity: 0.8;
+
+}
+.background {
+    -fx-background-color: #a9a9a9 ;
+}
+
+
+
+.header {
+    -fx-background-color: rgba(0, 18, 51, 0.7);
+    -fx-font-family: "Century Gothic";
+    -fx-border-width: 2px;
+    -fx-border-color: #ffffff; /* Assuming you want the border color; add this if needed */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    /* Set text color to fully opaque white */
+    -fx-text-fill: #ffffff;
+
+}
+
+.text{
+
+        -fx-background-color: #004cf2;
+        -fx-font-family: "Century Gothic";
+        -fx-border-width: 2px;
+        -fx-border-color: #ffffff; /* Assuming you want the border color; add this if needed */
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+
+        /* Set text color to fully opaque white */
+        -fx-text-fill: #ffffff;
+
+
+}
+
+.dashboard {
+    -fx-background-color: #E0E0E0; /* Light Grey */
+}
+/*
+.button {
+    -fx-background-color: #FFEB3B;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+}*/
+
+.heading {
+    -fx-text-fill: #3F51B5; /* Blue */
+    -fx-font-size: 24px;
+}
+
+.action-button {
+    -fx-background-color: #9C27B0; /* Purple */
+    -fx-text-fill: #FFFFFF; /* White */
+    -fx-font-size: 18px;
+}
+/* Style for the calendar days */
+.grid-pane > Label {
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Style for the days of the week labels */
+.grid-pane > Label.row0 {
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style for the event indicator dots */
+.event-indicator {
+    -fx-text-fill: red;
+    -fx-font-size: 8px;
+}
+.calendar-container {
+    -fx-border-color: #000000; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-style: solid; /* Border style */
+    -fx-padding: 10px; /* Padding inside the border */
+}

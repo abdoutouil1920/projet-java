@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="627.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.projet_java.controllers.detailcategoriecontroller">
+   <children>
+      <Label layoutX="358.0" layoutY="199.0" prefHeight="34.0" prefWidth="83.0" styleClass="text" stylesheets="@style.css" text="Type" />
+      <TextField fx:id="tyoetxt" layoutX="360.0" layoutY="252.0" styleClass="text" stylesheets="@style.css" />
+      <Label layoutX="317.0" layoutY="115.0" prefHeight="43.0" prefWidth="236.0" styleClass="text" stylesheets="@style.css" text="               Detail de Categorie" textAlignment="CENTER" />
+      <Button layoutX="299.0" layoutY="351.0" mnemonicParsing="false" onAction="#supprbtn" prefHeight="27.0" prefWidth="124.0" styleClass="Other_btn" stylesheets="@style.css" text="supprimer" />
+      <Button layoutX="468.0" layoutY="351.0" mnemonicParsing="false" onAction="#updatebtn" prefHeight="27.0" prefWidth="124.0" styleClass="Other_btn" stylesheets="@style.css" text="mise a jour" />
+      <TextField fx:id="idtxt" disable="true" layoutX="360.0" layoutY="195.0" visible="false" />
+   </children>
+</AnchorPane>
